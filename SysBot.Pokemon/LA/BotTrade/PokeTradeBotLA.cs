@@ -240,6 +240,7 @@ namespace SysBot.Pokemon
             await Click(A, 1_500, token).ConfigureAwait(false);
 
             Log("Selecting Link Trade.");
+            await Click(DRIGHT, 0_500, token).ConfigureAwait(false);
             await Click(A, 1_500, token).ConfigureAwait(false);
             await Click(A, 2_000, token).ConfigureAwait(false);
 
